@@ -1,0 +1,135 @@
+.login-form-container {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+      116.64deg,
+      rgba(0, 0, 0, 0.8) 0.46%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(https://res.cloudinary.com/dzbfzovvx/image/upload/v1683978877/19edc15e3aa6b6a1301fd6667bf2509e_jevy3y.jpg);
+}
+
+.form-container {
+  position: absolute;
+  width: 456px;
+  height: 440px;
+  left: 492px;
+  top: 292px;
+
+  background: #0c0b10;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 450px;
+    flex-shrink: 0;
+    padding: 64px 48px 64px 48px;
+  }
+}
+.login-page-heading {
+  position: absolute;
+  width: 180px;
+  height: 52px;
+  left: 165px;
+  top: 48px;
+}
+@media screen and (min-width: 768px) {
+  .login-page-heading {
+    width: 180px;
+  }
+}
+
+.login-heading-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-heading {
+  width: 78px;
+  height: 40px;
+  left: 681px;
+  top: 356px;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.username-input-field {
+  font-size: 15px;
+  height: 40px;
+  border: 1px;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.password-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.login-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #e50914;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}

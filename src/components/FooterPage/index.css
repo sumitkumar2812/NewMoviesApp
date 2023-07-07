@@ -1,0 +1,59 @@
+.footer-direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.react-icons {
+  left: 45%;
+  right: 53.75%;
+  top: 90.78%;
+  bottom: 7.67%;
+
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+
+  color: #ffffff;
+}
+.contact-heading {
+  left: 47.22%;
+  right: 47.22%;
+  top: 93.51%;
+  bottom: 4.72%;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px;
+  align-items: center;
+
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+.icons-style {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-direction {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.icon-and-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
